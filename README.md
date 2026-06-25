@@ -54,6 +54,13 @@ The system automatically detects vehicle entry and exit, monitors parking slot o
 
 ![Wiring Diagram](images/wiring-diagram.png)
 
+Red = VCC (+)
+Black = GND (-)
+Yellow (MicroSwitch)= GPIO (14, 25, 26, 27)
+Green (IR) = GPIO/OUT (18, 19)
+Yellow ( LCD ) = GPIO/SCL (22)
+Green ( lCD ) = GPIO/SDA (21)
+Orange = GPIO/PWM (13, 23)
 ---
 
 ## Blynk Dashboard
